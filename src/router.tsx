@@ -1,11 +1,25 @@
-import { createRouter } from "@tanstack/react-router";
-import { AppErrorComponent } from "@/lib/error-component";
-import { routeTree } from "./routeTree.gen";
+import { RootRoute, Router } from '@tanstack/react-router'
+import { RootLayout } from './routes/__root'
+import { IndexRoute } from './routes/index'
 
-export function getRouter() {
-  return createRouter({
-    routeTree,
-    defaultErrorComponent: AppErrorComponent,
-    scrollRestoration: true,
-  });
+const rootRoute = new RootRoute({
+  component: RootLayout,
+})
+
+const indexRoute = new IndexRoute({
+  getParentRoute: () => rootRoute,
+})
+
+const routeTree = rootRoute.addChildren([indexRoute])
+
+export const router = new Router({ routeTree })
+
+export function Router() {
+  return <router.RouterProvider />
+}
+
+declare module '@tanstack/react-router' {
+  interface Register {
+    router: typeof router
+  }
 }
