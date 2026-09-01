@@ -1,0 +1,12 @@
+node_modules
+.git
+.output
+.vercel
+.tanstack
+.env
+.env.*
+artifacts
+screenshots
+*.md
+AGENTS.md
+AGENTS.project.md

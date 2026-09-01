@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "The Patio Pulse",
+      "hasCanvas": false,
+      "bodyTextLen": 371,
+      "bodyTextHash": "570933e9bc9534e62958517db7875cd788bb095c7c82e8f17d4cb1c5b71eeeff",
+      "bodyTextPrefix": "Front of house feedback For floor, register, drive thru, bagging",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "The Patio Pulse",
+      "hasCanvas": false,
+      "bodyTextLen": 371,
+      "bodyTextHash": "570933e9bc9534e62958517db7875cd788bb095c7c82e8f17d4cb1c5b71eeeff",
+      "bodyTextPrefix": "Front of house feedback For floor, register, drive thru, bagging",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

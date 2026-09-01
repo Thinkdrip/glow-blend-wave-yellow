@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "vibehost": {
+      "url": "https://api.vibehost.com/mcp"
+    }
+  }
+}
